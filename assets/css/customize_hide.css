@@ -1,0 +1,27 @@
+#quick_panel_outer {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	z-index: 5;
+	width:50%;
+}
+
+/*
+#quick_panel_outer .chosen-select {
+	display:none;
+}
+*/
+
+
+.quick_panel_inner {
+	position: relative;
+	left: -50%;
+	color:#fff;
+}
+
+
+.quick_panel_inner .chosen-results li.parent-item {font-weight: bold}
+
+.quick_panel_inner .chosen-results li.child-item {padding-left: 25px;}
+
+.quick_panel_inner .chosen-results li.parent-info {font-weight:600;}
